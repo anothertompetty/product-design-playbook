@@ -1,0 +1,15 @@
+<div id="blog" class="container bg-base-light">
+  <p class="text-secondary">Latest from the blog</p>
+  <div class="grid u-cf u-margin-Tm">
+    {% for post in site.categories.blog limit:2 %}
+      <div class="grid__left grid__left--latest-blog">
+        <img src="img/blog/{{ post.pic }}" class="u-margin-Bs">
+        <h3 class="u-margin-Bs">
+          <a href="{{ post.link }}" target="_blank" class="link-plain">{{ post.title }}</a>
+        </h3>
+        <p class="u-margin-Bs">{{ post.preview }}&hellip;</p>
+        <a href="{{ post.link }}" target="_blank">Read full article &rarr;</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

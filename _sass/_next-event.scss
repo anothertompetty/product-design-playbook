@@ -1,0 +1,124 @@
+.next-event {
+  overflow: auto; // to give it height!
+}
+
+.next-event__about {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 260px;
+}
+
+.next-event__about--content {
+  position: absolute;
+  padding-right: $space-medium;
+  bottom: 0;
+}
+
+.next-event__map {
+  float: right;
+  width: calc(50% - 20px);
+  height: 260px;
+  text-align: center;
+}
+
+.next-event__buy {
+  display: none;
+}
+
+@media screen and (max-width: $width-medium) {
+  .next-event__about,
+  .next-event__map {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .next-event__about {
+    height: auto;
+    margin-bottom: $space-medium;
+  }
+
+  .next-event__about--content {
+    position: relative;
+    margin-top: $space-medium;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .next-event__buy {
+    display: block;
+  }
+}
+
+.next-event__speakers,
+.grid {
+  clear: both;
+  margin-top: $space-large;
+}
+
+.next-event__speaker-1,
+.grid__left {
+  float: left;
+  width: 50%;
+  padding-right: $space-medium;
+}
+
+.next-event__speaker-2,
+.grid__right {
+  float: right;
+  width: 50%;
+  padding-left: $space-medium;
+}
+
+.grid__left--latest-blog:nth-of-type(2) { // for looping over on latest-blog
+  float: right;
+  width: 50%;
+  padding-left: $space-medium;
+  padding-right: 0;
+}
+
+@media screen and (max-width: $width-medium) {
+  .next-event__speaker-1, 
+  .next-event__speaker-2,
+  .grid__left,
+  .grid__left--latest-blog:nth-of-type(2), 
+  .grid__right {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .next-event__speaker-1,
+  .grid__left {
+    margin-bottom: $space-medium;
+  }
+}
+
+.next-event__speaker-image {
+  max-width: 120px;
+  float: left;
+  margin-right: $space-medium;
+}
+
+.next-event__speaker-meta {
+  overflow: auto;
+}
+
+.next-event__speaker-meta--text-box {
+  position: relative;
+  height: 120px;
+}
+
+.next-event__speaker-meta--text-bottom {
+  position: absolute;
+  bottom: 0;
+  margin-left: 120px + $space-medium; 
+}
+
+.partners {
+  max-width: 200px;
+  margin-top: 88px;
+  padding: 0 $space-medium;
+}

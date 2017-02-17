@@ -1,0 +1,18 @@
+.welcome-text {
+  padding: $space-x-large $space-medium;
+}
+
+.welcome-text__header {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.welcome-text__body,
+.welcome-text__body--secondary {
+  margin: 0 auto;
+  max-width: 920px;
+}
+
+.welcome-text__body--secondary {
+  max-width: 520px;
+}

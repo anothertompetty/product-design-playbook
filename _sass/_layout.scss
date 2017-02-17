@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  font-size: $text-small;
+  font-weight: normal;
+  line-height: $line-height-small;
+  color: $color-base;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  width: 100%;
+}
+
+.site-wrapper {
+  max-width: $width-full;
+  margin: 0 auto;
+  padding: 0 $space-large;
+  background-color: white;
+}
+
+@media screen and (max-width: $width-small) {
+  .site-wrapper {
+    padding: 0 $space-medium;
+  }
+}
+
+@media screen and (max-width: $width-mobile) {
+  .site-wrapper {
+    padding: 0;
+  }
+}

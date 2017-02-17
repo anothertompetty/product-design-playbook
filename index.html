@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="play-list">
+    {% for play in site.plays %}
+      <li>
+        <span class="play-meta">{{ play.title }}</span>
+
+        <h2>
+          <a class="play-link" href="{{ play.url | prepend: site.baseurl }}">{{ play.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
