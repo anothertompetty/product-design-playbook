@@ -1,21 +1,42 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
+<h1 class="page-heading">Posts</h1>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="play-list">
-    {% for play in site.plays %}
-      <li>
-        <span class="play-meta">{{ play.title }}</span>
-
-        <h2>
-          <a class="play-link" href="{{ play.url | prepend: site.baseurl }}">{{ play.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+<div class="section">
+  <h2>Company vision</h2>
+  <div class="situation">
+    <ul>
+      {% for play in site.plays %}
+        {% if play.section == 'Company vision' %}
+          <li>
+            <span class="play-meta">{{ play.title }}</span>
+            <h2>
+              <a class="play-link" href="{{ play.url }}">{{ play.title }}</a>
+            </h2>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
 </div>
+
+<div class="section">
+  <h2>Product strategy</h2>
+  <div class="situation">
+    <ul>
+      {% for play in site.plays %}
+        {% if play.section == 'Product strategy' %}
+          <li>
+            <span class="play-meta">{{ play.title }}</span>
+            <h2>
+              <a class="play-link" href="{{ play.url }}">{{ play.title }}</a>
+            </h2>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+

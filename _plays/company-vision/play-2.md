@@ -1,9 +1,9 @@
 ---
 layout: play
-title: The Butterfly
+title: Workshops
 situation: Why are we here?
-section: 'Company vision'
-date: 2017-02-17 18:01:45 +0000
+section: Company vision
+date: 2017-02-18
 ---
 
 ### {{ page.situation }}
