@@ -3,7 +3,7 @@ h1 {
   font-size: $text-x-large;
   font-weight: normal;
   line-height: $line-height-large;
-  color: $color-primary;
+  color: $color-base;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   margin: 0;
@@ -18,12 +18,11 @@ h1 {
 }
 
 h2 {
-  font-family: $font-primary-bold;
+  font-family: $font-primary;
   font-size: $text-large;
   font-weight: normal;
-  line-height: $line-height-large;
-  color: $color-primary;
-  text-transform: uppercase;
+  line-height: $line-height-medium;
+  color: $color-base;
   margin: 0;
 }
 
@@ -39,8 +38,12 @@ h3 {
   font-size: $text-medium;
   font-weight: normal;
   line-height: $line-height-medium;
-  color: $color-primary;
+  color: $color-base;
   margin: 0;
+}
+
+p {
+  margin-bottom: $text-medium / 2;
 }
 
 .text-large {

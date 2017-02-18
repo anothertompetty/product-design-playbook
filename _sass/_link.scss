@@ -2,7 +2,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: $color-primary;
+  color: $color-base;
   text-decoration: underline;
   transition: color 0.1s ease;
 }
@@ -25,7 +25,7 @@ a.link-plain:visited,
 a.link-plain:hover,
 a.link-plain:active {
   text-decoration: none;
-  color: $color-primary;
+  color: $color-base;
 }
 
 a.link-plain:hover,

@@ -1,21 +1,80 @@
 ---
-layout: default
+layout: home
 ---
+<div class="play">
+  <div class="section u-margin-Bl">
+    <h2>{{ site.vision }}</h2>
+    <div class="situation">
+      <h3>Why are we here?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'Why are we here?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 
-<div class="home">
+  <div class="section u-margin-Bl">
+    <h2>{{ site.strategy }}</h2>
+    <div class="situation u-margin-Bm">
+      <h3>What should we be building?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'What should we be building?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
 
-  <h1 class="page-heading">Posts</h1>
+    <div class="situation">
+      <h3>What should we focus on next?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'What should we focus on next?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 
-  <ul class="play-list">
-    {% for play in site.plays %}
-      <li>
-        <span class="play-meta">{{ play.title }}</span>
+  <div class="section u-margin-Bl">
+    <h2>{{ site.design }}</h2>
+    <div class="situation">
+      <ul>
+        {% for play in site.plays %}
+          {% if play.section == site.design %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 
-        <h2>
-          <a class="play-link" href="{{ play.url | prepend: site.baseurl }}">{{ play.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+  <div class="section u-margin-Bl">
+    <h2>{{ site.ops }}</h2>
+    <div class="situation">
+      <ul>
+        {% for play in site.plays %}
+          {% if play.section == site.ops %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
+

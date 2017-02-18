@@ -1,23 +1,26 @@
 @font-face {
-  font-family: 'GTWalsheimRegular';
-  src: url('http://designclub.io/fonts/GTWalsheimRegular.eot');
-  src: url('http://designclub.io/fonts/GTWalsheimRegular.woff2') format('woff2'),
-       url('http://designclub.io/fonts/GTWalsheimRegular.woff') format('woff'),
-       url('http://designclub.io/fonts/GTWalsheimRegular.ttf') format('truetype'),
-       url('http://designclub.io/fonts/GTWalsheimRegular.svg#GTWalsheimRegular') format('svg'),
-       url('http://designclub.io/fonts/GTWalsheimRegular.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
+  font-family: 'MaisonNeue-Book';
   font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/MaisonNeue-Book.woff2') format('woff2'),
+       url('/fonts/MaisonNeue-Book.woff') format('woff'),
+       url('/fonts/MaisonNeue-Book.ttf') format('truetype'),
 }
 
 @font-face {
-  font-family: 'GTWalsheimMedium';
-  src: url('http://designclub.io/fonts/GTWalsheimMedium.eot');
-  src: url('http://designclub.io/fonts/GTWalsheimMedium.woff2') format('woff2'),
-       url('http://designclub.io/fonts/GTWalsheimMedium.woff') format('woff'),
-       url('http://designclub.io/fonts/GTWalsheimMedium.ttf') format('truetype'),
-       url('http://designclub.io/fonts/GTWalsheimMedium.svg#GTWalsheimMedium') format('svg'),
-       url('http://designclub.io/fonts/GTWalsheimMedium.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MaisonNeue-Demi';
+  font-style: medium;
+  font-weight: 600;
+  src: url('/fonts/MaisonNeue-Demi.woff2') format('woff2'),
+       url('/fonts/MaisonNeue-Demi.woff') format('woff'),
+       url('/fonts/MaisonNeue-Demi.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'MaisonNeue-Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url('/fonts/MaisonNeue-Bold.woff2') format('woff2'),
+       url('/fonts/MaisonNeue-Bold.woff') format('woff'),
+       url('/fonts/MaisonNeue-Bold.ttf') format('truetype'),
 }

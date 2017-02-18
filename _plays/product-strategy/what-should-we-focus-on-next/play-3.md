@@ -1,13 +1,10 @@
 ---
 layout: play
-title:  The Butterfly
-section: Company vision
-situation: Why are we here?
-date:   2017-02-17 18:01:45 +0000
+title: Prioritised Five
+situation: What should we focus on next?
+section: Product strategy & direction
+date: 2017-02-18
 ---
-
-### {{ page.situation }}
-## {{ page.title }}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
