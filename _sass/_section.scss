@@ -1,4 +1,9 @@
 .section {
-  padding-bottom: $space-medium;
+  padding-bottom: $space-large;
+  margin-bottom: $space-large;
   border-bottom: 1px solid $color-base;
+}
+
+.section__title {
+  margin-bottom: $space-medium;
 }

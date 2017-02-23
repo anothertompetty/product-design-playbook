@@ -2,8 +2,8 @@
 layout: home
 ---
 <div class="play">
-  <div class="section u-margin-Bl">
-    <h2>{{ site.vision }}</h2>
+  <div class="section">
+    <h2 class="section__title">{{ site.vision }}</h2>
     <div class="situation">
       <h3>Why are we here?</h3>
       <ul>
@@ -18,8 +18,8 @@ layout: home
     </div>
   </div>
 
-  <div class="section u-margin-Bl">
-    <h2>{{ site.strategy }}</h2>
+  <div class="section">
+    <h2 class="section__title">{{ site.strategy }}</h2>
     <div class="situation u-margin-Bm">
       <h3>What should we be building?</h3>
       <ul>
@@ -33,7 +33,7 @@ layout: home
       </ul>
     </div>
 
-    <div class="situation">
+    <div class="situation u-margin-Bm">
       <h3>What should we focus on next?</h3>
       <ul>
         {% for play in site.plays %}
@@ -45,14 +45,12 @@ layout: home
         {% endfor %}
       </ul>
     </div>
-  </div>
 
-  <div class="section u-margin-Bl">
-    <h2>{{ site.design }}</h2>
     <div class="situation">
+      <h3>What should we be in five years?</h3>
       <ul>
         {% for play in site.plays %}
-          {% if play.section == site.design %}
+          {% if play.situation == 'Where should we be in five years?' %}
             <li>
               <a href="{{ play.url }}">{{ play.title }}</a>
             </li>
@@ -62,12 +60,107 @@ layout: home
     </div>
   </div>
 
-  <div class="section u-margin-Bl">
-    <h2>{{ site.ops }}</h2>
-    <div class="situation">
+  <div class="section">
+    <h2 class="section__title">{{ site.design }}</h2>
+    <div class="situation u-margin-Bm">
+      <h3>How do we know if we're successful?</h3>
       <ul>
         {% for play in site.plays %}
-          {% if play.section == site.ops %}
+          {% if play.situation == 'How do we know if weU+0027re successful?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="situation u-margin-Bm">
+      <h3>How do we get the scope right?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'How do we get the scope right?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="situation u-margin-Bm">
+      <h3>Where should I start with this design?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'Where should I start with this design?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="situation u-margin-Bm">
+      <h3>Is this idea any good?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'Is this idea any good?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="situation u-margin-Bm">
+      <h3>Is this design usable?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'Is this design usable?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="situation">
+      <h3>Is this design feasible?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'Is this design feasible?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section__title">{{ site.ops }}</h2>
+    <div class="situation u-margin-Bm">
+      <h3>How do we share context?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'How do we share context?' %}
+            <li>
+              <a href="{{ play.url }}">{{ play.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="situation">
+      <h3>How do we improve design quality?</h3>
+      <ul>
+        {% for play in site.plays %}
+          {% if play.situation == 'How do we improve design quality?' %}
             <li>
               <a href="{{ play.url }}">{{ play.title }}</a>
             </li>

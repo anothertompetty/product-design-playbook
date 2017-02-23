@@ -5,7 +5,6 @@ h1 {
   line-height: $line-height-large;
   color: $color-base;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
   margin: 0;
 }
 
@@ -70,7 +69,7 @@ p {
   margin: 0;
 }
 
-.text-body {
+.text-small {
   font-family: $font-primary;
   font-size: $text-small;
   line-height: $line-height-small;
