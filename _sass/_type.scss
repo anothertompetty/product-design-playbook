@@ -23,6 +23,12 @@ h2 {
   line-height: $line-height-medium;
   color: $color-base;
   margin: 0;
+  margin-top: $space-medium;
+  margin-bottom: $space-small;
+}
+
+h2.clean {
+  margin: 0;
 }
 
 @media screen and (max-width: $width-mobile) {
@@ -42,7 +48,7 @@ h3 {
 }
 
 p {
-  margin-bottom: $text-medium / 2;
+  margin-bottom: $text-medium / 1.8;
 }
 
 .text-large {
