@@ -91,6 +91,11 @@ p {
   color: $color-secondary;
 }
 
+.text-meta {
+  color: $color-meta;
+  cursor: not-allowed;
+}
+
 .text-white {
   color: white;
 }
