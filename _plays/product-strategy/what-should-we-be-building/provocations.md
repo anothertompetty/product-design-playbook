@@ -16,19 +16,25 @@ Provocations provide a great stimulus for teams, as they focus projects on custo
 
 This uses a cut down version of IDEO’s [human-centred design][design-kit] methodology. 
 
+---
+
 ## When to run
 Run this when you’re unsure what the next phase of work should be. Can be organisation, product, team, or project specific.
+
+---
 
 ## Why to run
 It’s best to have some form of plan for what to work on, but a detailed roadmap isn’t always the answer. They can be too predictive, leading to projects that aren’t always the right thing to be working on; or too prescriptive, leading to teams feeling boxed in. Provocations provide a repeatable way of ensuring teams are doing accurate — and empowering — work.
 
+---
+
 ## How to run
 This can be split into two phases: research, and analysis.
 
-### Phase one: research
+### Phase one: Research
 This is all about uncovering real customer needs and and understanding motivation. It will provide the raw material to work with later on. Repeat exposure to customers also helps build a good judgement muscle for making product decisions.
 
-### Process: (examples)
+### Process
 - Try and have 10 to 15 different conversations with customers who are representative of your user base.
 - At least two (but not more than three) people are needed: one to interview, one to take notes.
 - Ask the customers to tell stories of their experiences related to your product's industry. The focus should be on real situations and emotions felt, not analysis of past situaitons (people are notoriously bad at that).
@@ -38,7 +44,7 @@ This is all about uncovering real customer needs and and understanding motivatio
 ### Outcome
 A lot of notes, quotes, and observations from the interviews.
 
-### Phase 2: analysis
+### Phase 2: Analysis
 This section is designed to turn understanding into insight. It allows layers of need and motivation to be captured in a succinct way. Framing these as questions helps turn them into actionable goals.
 
 ### Process
@@ -53,17 +59,22 @@ This section is designed to turn understanding into insight. It allows layers of
 ### Outcome
 A series of questions that, if approached thoughtfully, will provide direction for design and product teams.
 
+---
+
 ## Roles
 - Interviewers: leading conversations with customers.
 - Note takers: recording quotes and making sure no detail slips through the net.
 - Facilitator: running the session to generate insights.
 
+---
+
 ## Pro tips
 - During the interviews, observing body language and tone is just as important as recording the words.
 - Try and avoid the word ‘user’ in your provocations. Instead, use ‘people’, or ‘customer’ (even if your product is free, this keeps the focus on an exhange of value).
+
+---
 
 ## Resources
 [Design Kit][design-kit] from IDEO, which covers the human-centred design process (where this originated) in detail.
 
 [design-kit]: http://www.designkit.org/
-
