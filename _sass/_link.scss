@@ -3,7 +3,8 @@ a:visited,
 a:hover,
 a:active {
   color: $color-base;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid $color-base;
   transition: color 0.1s ease;
 }
 
@@ -39,4 +40,13 @@ a.link-invert--plain:hover,
 a.link-invert--plain:active {
   text-decoration: none;
   color: white;
+}
+
+a[rel="external"]::after {
+  content: " \A0\A0\A0\A0";
+  background-image: url(/img/link_after.png);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  margin-left: 2px;
 }

@@ -32,7 +32,6 @@ layout: home
             </li>
           {% endif %}
         {% endfor %}
-        <li class="text-meta">Experience mapping</li>
         <li class="text-meta">Research sprint</li>
         <li class="text-meta">Opportunity areas</li>
         <li class="text-meta">Impact / effort matrix</li>
@@ -71,16 +70,15 @@ layout: home
   <div class="section">
     <h2 class="section__title">{{ site.design }}</h2>
     <div class="situation u-margin-Bm">
-      <h3>How do we know if we're successful?</h3>
+      <h3>How do we know if we are successful?</h3>
       <ul class="plays">
         {% for play in site.plays %}
-          {% if play.situation == 'How do we know if weU+0027re successful?' %}
+          {% if play.situation == 'How do we know if we are successful?' %}
             <li>
               <a href="{{ play.url }}">{{ play.title }}</a>
             </li>
           {% endif %}
         {% endfor %}
-        <li class="text-meta">Objective and key results</li>
       </ul>
     </div>
 
